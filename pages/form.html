@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form survey penonton film</title>
+  </head>
+  <body>
+    <h1>Form survey penonton film</h1>
+    <form>
+      <div>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" placeholder="Masukkan nama..." />
+      </div>
+      <div>
+        <label for="umur">Umur</label>
+        <input type="text" id="umur" placeholder="Masukkan umur..." />
+      </div>
+      <br />
+      <div>
+        <p>Jenis kelamin:</p>
+        <input type="radio" name="kelamin" id="laki" />
+        <label for="laki">Laki-laki</label>
+        <input type="radio" name="kelamin" id="perempuan" />
+        <label for="perempuan">Perempuan</label>
+      </div>
+      <br />
+      <div>
+        <p>Apakah anda hobi menonton film?</p>
+        <select id="hobi">
+          <option id="hobi" value="" disabled selected>
+            Apakah anda hobi menonton film?
+          </option>
+          <option id="hobi" value="ya">Ya</option>
+          <option id="hobi" value="tidak">Tidak</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <p>Genre film yang disukai:</p>
+        <input type="checkbox" id="action" value="action" />
+        <label for="action">Action</label>
+
+        <input type="checkbox" id="horror" value="horror" />
+        <label for="horror">Horror</label>
+
+        <input type="checkbox" id="comedy" value="comedy" />
+        <label for="comedy">Comedy</label>
+
+        <input type="checkbox" id="drama" value="drama" />
+        <label for="drama">Drama</label>
+
+        <input type="checkbox" id="scifi" value="sci-fi" />
+        <label for="scifi">Ski-Fi</label>
+      </div>
+
+      <br />
+      <br />
+
+      <button type="button">Submit</button>
+    </form>
+  </body>
+</html>
+
+<!-- 5-10 genre -->
