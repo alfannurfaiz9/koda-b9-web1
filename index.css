@@ -1,11 +1,19 @@
 .bg-yellow {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .text-blue {
-    color: blue;
+  color: blue;
+}
+
+.btn {
+  color: white;
+  background-color: crimson;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 10px;
 }
