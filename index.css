@@ -66,3 +66,79 @@
 .p-2 {
   padding: 2px;
 }
+
+.m-16 {
+  margin: 32px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.bg-blue {
+  background-color: rgba(127, 255, 212, 0.21);
+  backdrop-filter: blur(16px);
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.text-left {
+  text-align: start;
+}
+
+.text-right {
+  text-align: end;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.mx-8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.text-black {
+  color: black;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.543);
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.m-tb {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.fixed {
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.h-64 {
+  height: 64px;
+}
