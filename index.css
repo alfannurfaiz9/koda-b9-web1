@@ -17,3 +17,52 @@
   padding: 8px;
   border-radius: 10px;
 }
+
+.inline-block {
+  display: inline-block;
+}
+
+.p-4 {
+  padding: 4px;
+}
+
+.m-8 {
+  margin: 8px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.text-grey {
+  color: gray;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.border-rounded {
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+.p-2 {
+  padding: 2px;
+}
