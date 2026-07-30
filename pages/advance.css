@@ -1,0 +1,43 @@
+/* SOAL 1 */
+:root {
+  --bg-primary: crimson;
+  --bg-secondary: chocolate;
+}
+
+/* SOAL 2 */
+input[type="email"] {
+  background-color: var(--bg-primary);
+}
+
+/* SOAL 3 */
+button[data-role="primary"] {
+  border: 2px solid blue;
+}
+
+/* SOAL 4 */
+article[data-status="error"] {
+  color: green;
+}
+
+/* SOAL 5 */
+table tbody tr:nth-child(odd) {
+  background-color: var(--bg-primary);
+}
+
+table tbody tr:nth-child(even) {
+  background-color: var(--bg-secondary);
+}
+
+/* SOAL 6 */
+li:nth-child(even) {
+  background-color: yellow;
+}
+/* SOAL 7 */
+.btn:hover {
+  cursor: pointer;
+}
+
+/* SOAL 8 */
+article h2 ~ p::first-letter {
+  font-size: 32px;
+}
