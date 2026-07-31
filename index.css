@@ -142,3 +142,34 @@
 .h-64 {
   height: 64px;
 }
+
+header {
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin: 8px;
+
+  &:hover {
+    color: rgb(70, 70, 70);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header nav ul li {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 500px) {  
+  header nav ul li {
+    display: block;
+  }
+}
